@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
         link.addEventListener('mouseover', function() {
-            this.style.color = '#ff6347';
+            this.style.color = '#210808';
         });
         link.addEventListener('mouseout', function() {
             this.style.color = '#fff';
